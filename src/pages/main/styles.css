@@ -1,0 +1,49 @@
+
+
+.product-list article {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.product-list article p {
+    font-size: 16px;
+    color: #999;
+    margin-top: 5px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.product-list article a {
+    height: 38px;
+    width: 50%;
+    border-radius: 20px;
+    background: #FC0505;
+    background: green;
+    margin-top: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+    margin-left: auto;
+    margin-right: auto;
+}
+.product-list article a:hover{
+    background: #fff;
+    color: #FC0505;
+    border: 2px solid #FC0505;
+    color: green;
+    border: 2px solid green;
+}
+.break-column {
+    flex-basis: 100%;
+    width: 0;
+  }
+  
